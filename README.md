@@ -24,5 +24,5 @@ to install the Rasa you can see this [tutriol] : (https://www.youtube.com/watch?
 
 ## The out put 
 
-![alt text]("https://github.com/MohamedMostafa1997/Chat_bot_by_Rasa/blob/main/output.png")
+![alt text](https://github.com/MohamedMostafa1997/Chat_bot_by_Rasa/blob/main/output.png)
 
