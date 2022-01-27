@@ -55,7 +55,7 @@ class ValidateCountryForm(FormValidationAction):
         # preprocessing the words except USA to handle unexpected text
         if slot_value != 'USA':
             slot_value = slot_value.capitalize()
-        # validate slot to be in the country databsae    
+        # validate slot to be in the country dataset    
         if slot_value not in countries_data:
             msg = f"please enter the right country, here is the countries\n{countries_data}"
             dispatcher.utter_message(text=msg)
@@ -81,7 +81,7 @@ class ActionDisplayCountries(Action):
 class ActionInformCapital(Action):
 
     def name(self) -> Text:
-        return "action_inform_capital_pop"
+        return "action_inform_capital"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
